@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Product Landing page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+        <header id="header">
+            <nav class="navbar" id="nav-bar">
+                <a href="#home"><img id="header-img" src="/resources/img/logo-small.png" alt="Dummy logo" class="logo"></a>
+                  <ul class="main-nav">
+                    <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#sign-up">Sign up</a></li>
+                </ul>        
+            </nav>
+        </header>
+
+        <div class="topnav">
+            <a href="#home" class="active"><i class="icon-mobile fa fa-home"></i></a>
+            <div id="myLinks">
+                <a href="#how-it-works">How it works</a>
+                <a href="#features">Features</a>
+                <a href="#sign-up">Sign up</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        
+        <div class="bgimg-1" id="home">
+            <div class="home-text-center">
+                <h1 class="hero">Hello healthy meals</h1>
+                <a class="btn btn-ghost" href="https://en.wikipedia.org/wiki/Hungry!" target="_blank">I'm hungry</a>
+                <a class="btn btn-ghost" href="https://en.wikipedia.org/wiki/List_of_Italian_dishes" target="_blank">Show me more</a>
+            </div>
+        </div>
+        
+        
+        <section class="section-features">
+
+            <h2>Get food fast &mdash; not fast food.</h2>
+            <p class="long-copy">
+            Hello, we’re your new premium food delivery service.<br> We know you’re always busy. &nbsp; No time for cooking.<br> So let us take care of that, we’re really good at it, we promise!
+            </p>
+        
+            <div id="how-it-works" class="row">
+                <figcaption>
+                    <h3>How it works &mdash; Simple as 1, 2, 3</h3>
+                </figcaption>
+
+                <div class="span-1-of-2">
+                    <iframe width="500" height="400" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=1;showinfo=0" allowfullscreen></iframe>
+                </div>
+
+                <div class="span-1-of-2">
+                    <ul id="list">
+                        <li>Choose the subscription plan that best fits your needs and sign up today.</li>
+                        <li>Order your delicious meal using our mobile app or website.</li>
+                        <li>Enjoy your meal after less than 20 minutes. See you the next time!</li>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>Aenean vulputate eleifend tellus.</li>
+                        <li>Maecenas nec odio et ante tincidunt tempus.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="bgimg-2">
+            <div class="home-text-center">
+                <h1 class="hero">Features</h1>
+            </div>
+        </div>
+
+        <div id="features" class="row">
+            <div class="span-1-of-4">
+                <i class="fas fa-air-freshener"></i>
+                <h3>Up to 365 days/year</h3>
+                <p>
+                Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+                </p><br>
+            </div>
+            <div class="span-1-of-4">
+                <i class="fas fa-archive"></i>
+                <h3>Ready in 20 minutes</h3>
+                <p>
+                You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
+                </p><br>
+            </div>
+            <div class="span-1-of-4">
+                <i class="fas fa-award"></i>
+                <h3>100% organic</h3>
+                <p>
+                All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
+                </p><br>
+            </div>
+            <div class="span-1-of-4">
+                <i class="fas fa-award"></i>
+                <h3>Order anything</h3>
+                <p>
+                We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
+                </p><br>
+            </div>           
+        </div>        
+        
+        <section id="sign-up"> 
+          <h3>Sign Up and make an order</h3>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+            <input id="submit" type="submit" value="Get Started" class="btn"/>
+          </form>
+        </section>
+      <footer class="footer-icon">
+            <div class="scroll-nav">
+                <a href="#home" title="To Top">
+                <i class="fa fa-angle-double-up"></i>
+                </a>
+            </div>
+          <p>This is just a fake website.<br>All the details given are not real.<br>Created for passing of FreeCodeCamp' test.</p>
+      </footer>
+
+      <script type="text/javascript" src="resources/js/responsive-nav.js"></script>
+      <script type="text/javascript" src="resources/js/scroll.js"></script>
+
+    </body>
+</html>
